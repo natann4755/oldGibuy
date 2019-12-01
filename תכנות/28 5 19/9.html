@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+         function rrr(){ 
+        // var a=9, b= 10, c=11,;
+       // var ee = document.getElementById("aaa").value *1
+        //var bb = document.getElementById("bbb").value *1
+         alert(add(document.getElementById("aaa").value *1,document.getElementById("bbb").value *1));
+         alert(addd(document.getElementById("aaa").value *1,document.getElementById("bbb").value *1,document.getElementById("ccc").value *1));
+}
+          function add(a,b) {
+            return a+b
+
+          } 
+          function addd(a,b,c) {
+           //  return  a+ b -c
+           return add(a,b) -c 
+  }
+    </script>
+</head>
+<body>
+    
+    <input type="text" id="aaa">
+    <input type="text" id="bbb">
+    <input type="text" id="ccc" onchange="rrr()">
+
+</body>
+</html>

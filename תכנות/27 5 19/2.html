@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<script>
+ function arr() {  
+         names = ["avi","david","tzvi"];
+         nambbers = [82,92,95];
+         sludent = "";
+         for (i=0; i<nambbers.length ; i++)  {
+             if (nambbers[i]>89){   
+                sludent+=names[i]+" "+nambbers[i]+"</br>"
+             }
+         }
+       
+        document.getElementById("test").innerHTML = sludent
+        
+          } 
+</script>
+
+<body>
+        <span id="test"></span>
+        <div id="rrrr"></div>
+        <script>
+         arr()
+               
+     </script>
+     
+    
+</body>
+</html>

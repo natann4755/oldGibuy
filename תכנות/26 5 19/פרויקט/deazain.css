@@ -1,0 +1,13 @@
+ body {
+     background-color: lightblue;
+    text-align: center;}
+    h1 { background-color: rgb(243, 217, 243);
+    color:black;
+    font-size:   2.5em;   }
+    h2  { background-color:rgb(136, 116, 119);
+    color:rgb(82, 69, 69);
+        font-size: 200%;  }
+    div  { background-color:whitesmoke;
+        color:red;
+        font-size  1.8em
+    }

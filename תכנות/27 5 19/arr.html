@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<script>
+    function stodent(){
+        nams=["avi","natan","israel"]
+        numbe=[97,98,99]
+        last_namee = ["aaa","bbb","ccc"]
+        age = ["20","27","19"]
+        text=""
+        for(var i=0;i<numbe.length;i++){
+            if (numbe[i]>89){
+                text+=nams[i]+" "+numbe[i]+ " " +last_namee[i] + " "+ age[i] + "</br>"
+            }
+        }
+        document.getElementById("test").innerHTML=text;
+
+    }
+  
+
+
+</script>
+<body>
+    <span id="test"></span>
+     <script> stodent()
+     </script>
+    
+</body>
+</html>

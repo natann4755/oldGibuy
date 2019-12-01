@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        function chek(){ 
+              sheve_();    
+         }
+
+         function sheve_(){  
+        var new_nammme = document.getElementById("new_name").value
+        var new_pass = document.getElementById("new_password").value
+                console.log(new_nammme)
+                console.log(new_pass)
+                pro(new_nammme,new_pass)
+}
+        function  pro(nammme,pass){
+            for (i=0; i<5;i++){
+            var p_name = prompt ("plis write name"," ");
+            var p_pass = prompt ("plis write password"," ")
+            if (nammme==p_name&&pass==p_pass){
+                alert ("wellcome")
+                i=5
+            }
+            else{
+                alert ("write egan")
+            }
+           } 
+        }
+
+             
+    </script>
+</head>
+<body>
+   criait new name <input type="text" id="new_name"/>
+   criait new password <input type="text" id="new_password"/>
+   <button onclick="chek()">criait</button>
+</body>
+</html>

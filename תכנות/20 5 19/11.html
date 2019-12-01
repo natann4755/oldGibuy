@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        function nnn (){ 
+            alert (document.getElementById("ny adae1").value);
+            var aaaa = confirm ("do you are happy?");
+            if (aaaa){ 
+            alert ("aaaa") 
+            }
+             else
+             {alert ("ssss")
+         }
+        
+        }
+        function ddd (){
+         document.getElementById("ny adae3").value = document.getElementById("ny adae2").value ;
+         alert (document.getElementById("ny adae2").value)
+        }
+        function aaa (){ 
+         document.getElementById("ny adae2").value = document.getElementById("ny adae3").value 
+         alert (document.getElementById("ny adae3").value)
+        }
+    </script>
+</head>
+<body>
+   1 <input type="text" id="ny adae1" onchange="nnn ()"/>
+   2 <input type="text" id="ny adae2" onkeydown="ddd ()"/>
+   3 <input type="text" id="ny adae3"  onkeyup="aaa ()"/> 
+   
+</body>
+</html>

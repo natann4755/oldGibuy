@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        
+       
+        function nam(a,b,h)
+        {
+           var c = " "
+          
+        if (a<b && b<h) {
+            c += a + "  "
+            c += b + "  "
+            c += h
+        }
+        if (h<b && b<a)
+         {
+            c += h + " " 
+            c += b + " "
+            c += a
+        }  
+        if (b<a && a<h)
+         {
+            c += b + " " 
+            c += a + " "
+            c += h
+        }
+        if (b<h && h<a)
+         {
+            c += b + " " 
+            c += h + " "
+            c += a
+        }
+        
+
+        return c
+    }
+    </script>
+</head>
+<body>
+    <script>
+      var bb = nam(3,10,20)
+      alert (bb)
+      document.write (bb)
+ 
+    </script>
+</body>
+</html>

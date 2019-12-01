@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+            function writ(){  
+            var mmin = document.getElementById("min").value *1
+            var maax = document.getElementById("max").value *1
+            var tt  = maha(mmin,maax)
+            var kk =  modu(tt)
+                 wwriet(kk)
+                }
+                function  maha(mi,ma){
+                    mm=[]
+                    gg = ma - mi
+                    for (i=0;i<=gg;i++){
+                        mm[i] = mi
+                        mi= mi +1
+                    }
+                    console.log(mm)
+                    return mm
+                }
+                function  modu(y){
+                    ret = []
+                    for (i=0;i<y.length;i++){
+                        if (y[i]%3==0){
+                            ret.push(y[i])
+                        }
+                    }
+                    return (ret)
+
+                } 
+               function  wwriet(n){
+                   var nam = " "
+                   for (i=0;i<n.length;i++){
+                       nam+= n[i]
+                   }
+                   document.write(nam)
+
+               }
+
+    </script>
+</head>
+<body>
+    min:<input type="text" id="min">
+    max:<input type="text" id="max">
+    <button onclick="writ()" >rwite</button> 
+</body>
+</html>
